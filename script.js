@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',()=>{
 const wa=document.createElement('a');
-wa.href='https://wa.me/91XXXXXXXXXX';
+wa.href='https://wa.me/917870100099';
 wa.target='_blank';
 wa.className='whatsapp-float';
 wa.innerHTML='💬';
