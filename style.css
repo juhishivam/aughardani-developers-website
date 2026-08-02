@@ -4,7 +4,33 @@ body{font-family:'Poppins',sans-serif;background:#f7f9fc;color:#333;line-height:
 .container{width:min(90%,1200px);margin:auto}
 header{background:#0B4F8A;color:#fff;position:sticky;top:0}
 .nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
-.logo{font-size:28px;font-weight:700}
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#fff;
+    padding:5px;
+}
+
+.logo h2{
+    color:#fff;
+    font-size:18px;
+    margin:0;
+    font-weight:700;
+}
 nav a{color:#fff;text-decoration:none;margin-left:20px}
 .hero{background:linear-gradient(135deg,#0B4F8A,#1976D2);color:#fff;padding:90px 0}
 .hero-content{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
@@ -18,24 +44,3 @@ h2{text-align:center;color:#0B4F8A;margin-bottom:25px}
 .cta h2{color:#fff}
 footer{background:#111827;color:#fff;text-align:center;padding:40px 20px}
 @media(max-width:768px){.nav{flex-direction:column}.hero-content{grid-template-columns:1fr;text-align:center}}
-.logo{
-    display:flex;
-    align-items:center;
-    gap:12px;
-}
-
-.logo img{
-    width:55px;
-    height:55px;
-    object-fit:contain;
-    border-radius:50%;
-    background:#fff;
-    padding:4px;
-}
-
-.logo h2{
-    color:#fff;
-    font-size:22px;
-    font-weight:700;
-    margin:0;
-}
