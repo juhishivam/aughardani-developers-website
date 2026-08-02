@@ -42,5 +42,11 @@ h2{text-align:center;color:#0B4F8A;margin-bottom:25px}
 .card{background:#fff;padding:25px;border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,.08)}
 .cta{background:#0B4F8A;color:#fff;text-align:center}
 .cta h2{color:#fff}
-footer{background:#111827;color:#fff;text-align:center;padding:40px 20px}
+footer{
+    background:#111827;
+    color:#fff;
+    text-align:center;
+    padding:20px 15px;
+    margin-top:40px;
+}
 @media(max-width:768px){.nav{flex-direction:column}.hero-content{grid-template-columns:1fr;text-align:center}}
